@@ -4,7 +4,6 @@ DB設計
 | Column              | Type       | Options                   |
 | ------------------- | ---------- | --------------------------|
 | name                | string     | null: false               |
-| color               | string     |                           |
 | visibility          | boolean    |                           |
 
 ### Association
@@ -14,7 +13,6 @@ DB設計
 | Column          | Type       | Options                        |
 | --------------- | ---------- | ------------------------------ |
 | name            | string     | null: false                    |
-| color           | string     |                                |
 | description     | text       |                                |
 | start           | datetime   | null: false                    |
 | end             | datetime   | null: false                    |
